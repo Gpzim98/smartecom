@@ -19,3 +19,7 @@ class CarrinhoView(TemplateView):
 
 class CheckoutView(TemplateView):
     template_name = "wish/checkout.html"
+
+
+class ContatoView(TemplateView):
+    template_name = "wish/contact.html"
