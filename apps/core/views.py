@@ -15,3 +15,7 @@ class ProdutoView(TemplateView):
 
 class CarrinhoView(TemplateView):
     template_name = "wish/cart.html"
+
+
+class CheckoutView(TemplateView):
+    template_name = "wish/checkout.html"
