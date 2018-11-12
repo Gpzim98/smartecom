@@ -91,11 +91,12 @@
 		</div>
 		<nav class="menu_nav">
 			<ul class="menu_mm">
-				<li class="menu_mm"><a href="{% url 'core_home' %}">home</a></li>
-				<li class="menu_mm"><a href="#">clothes</a></li>
-				<li class="menu_mm"><a href="#">accessories</a></li>
-				<li class="menu_mm"><a href="#">lingerie</a></li>
-				<li class="menu_mm"><a href="#">contact</a></li>
+				    <li class="menu_mm"><a href="{% url 'core_home' %}">home</a></li>
+					<li class="menu_mm"><a href="{% url 'core_categoria' %}">Categoria</a></li>
+					<li class="menu_mm"><a href="{% url 'core_produto' %}">Produto</a></li>
+					<li class="menu_mm"><a href="{% url 'core_carrinho' %}">Carrinho</a></li>
+					<li class="menu_mm"><a href="{% url 'core_checkout' %}">Checkout</a></li>
+					<li class="menu_mm"><a href="{% url 'core_contato' %}">Contato</a></li>
 			</ul>
 		</nav>
 	</div>
